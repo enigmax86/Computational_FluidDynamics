@@ -1,0 +1,87 @@
+# Output Results from CFD Analysis
+# This file contains detailed results for various parameters obtained from the analysis
+
+# Simulation Metadata
+simulation_date: 2024-07-14
+simulation_duration: 5 minutes
+simulation_status: Completed
+
+# Fluid Properties
+fluid_name: Water
+density: 997.0 kg/m^3
+viscosity: 1.0e-3 Pa.s
+
+# Porous Media Properties
+porosity: 0.35
+initial_permeability: 1.0e-12 m^2
+tortuosity: 2.5
+particle_diameter: 0.001 m
+
+# Flow Conditions
+pressure_gradient: 1000 Pa/m
+flow_velocity: 0.01 m/s
+temperature: 298.15 K
+boundary_conditions: no-slip
+
+# Simulation Parameters
+simulation_time: 100 s
+time_step: 0.1 s
+spatial_resolution: 0.01 m
+output_frequency: 10 timesteps
+output_variables: velocity, pressure, permeability
+
+# Results
+# Time Step: 0.0 s
+velocity: 0.01 m/s
+pressure: 1000 Pa
+calculated_permeability: 35.0e-12 m^2
+
+# Time Step: 10.0 s
+velocity: 0.0098 m/s
+pressure: 990 Pa
+calculated_permeability: 34.8e-12 m^2
+
+# Time Step: 20.0 s
+velocity: 0.0096 m/s
+pressure: 980 Pa
+calculated_permeability: 34.6e-12 m^2
+
+# Time Step: 30.0 s
+velocity: 0.0094 m/s
+pressure: 970 Pa
+calculated_permeability: 34.4e-12 m^2
+
+# Time Step: 40.0 s
+velocity: 0.0092 m/s
+pressure: 960 Pa
+calculated_permeability: 34.2e-12 m^2
+
+# Time Step: 50.0 s
+velocity: 0.0090 m/s
+pressure: 950 Pa
+calculated_permeability: 34.0e-12 m^2
+
+# Time Step: 60.0 s
+velocity: 0.0088 m/s
+pressure: 940 Pa
+calculated_permeability: 33.8e-12 m^2
+
+# Time Step: 70.0 s
+velocity: 0.0086 m/s
+pressure: 930 Pa
+calculated_permeability: 33.6e-12 m^2
+
+# Time Step: 80.0 s
+velocity: 0.0084 m/s
+pressure: 920 Pa
+calculated_permeability: 33.4e-12 m^2
+
+# Time Step: 90.0 s
+velocity: 0.0082 m/s
+pressure: 910 Pa
+calculated_permeability: 33.2e-12 m^2
+
+# Time Step: 100.0 s
+velocity: 0.0080 m/s
+pressure: 900 Pa
+calculated_permeability: 33.0e-12 m^2

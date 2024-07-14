@@ -1,0 +1,28 @@
+# Input Parameters for CFD Analysis
+# This file contains detailed values for various parameters used in the analysis
+
+# Fluid Properties
+fluid_name: Water
+density: 997.0        # Fluid density (kg/m^3)
+viscosity: 1.0e-3     # Fluid viscosity (Pa.s)
+
+# Porous Media Properties
+porosity: 0.35
+initial_permeability: 1.0e-12   # Initial permeability (m^2)
+tortuosity: 2.5
+particle_diameter: 0.001        # Diameter of particles in porous media (m)
+
+# Flow Conditions
+pressure_gradient: 1000         # Pressure gradient (Pa/m)
+flow_velocity: 0.01             # Flow velocity (m/s)
+temperature: 298.15             # Temperature (K)
+boundary_conditions: "no-slip"  # Boundary conditions for the simulation
+
+# Simulation Parameters
+simulation_time: 100            # Total simulation time (s)
+time_step: 0.1                  # Time step for the simulation (s)
+spatial_resolution: 0.01        # Spatial resolution for the simulation grid (m)
+
+# Output Settings
+output_frequency: 10            # Frequency of output data (timesteps)
+output_variables: "velocity, pressure, permeability"  # Variables to be saved in output
